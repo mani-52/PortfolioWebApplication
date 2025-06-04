@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero" xmlns:C="http://www.w3.org/1999/xhtml" xmlns:C="http://www.w3.org/1999/xhtml">
+  <h1>Hello, I’m <span class="accent">Jyothisaimanikumar Vusa</span></h1>
+  <p>AI & Robotics enthusiast with a strong foundation in Python, computer vision, and drone systems. Passionate about solving real-world problems through innovative technology.</p>
+  <p>I’ve developed projects ranging from an Emotionally Intelligent Bot using facial emotion recognition, to an Autonomous Drone powered by YOLOv8 and Raspberry Pi. I bring both creativity and technical rigor to every challenge I take on.</p>
+  <a class="btn" href="{{ url_for('projects') }}">View My Projects →</a>
+</section>
+{% endblock %}
+<img src="{{ url_for('static', filename='img/mani.jpg') }}" alt="Jyothisaimanikumar Vusa">
+
